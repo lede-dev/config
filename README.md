@@ -1,5 +1,7 @@
 # OpenWRT Configs
 
+### Support devices
+
 - **ar71xx-generic**
   - GL-INET 6416A
 

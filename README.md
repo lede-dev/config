@@ -12,4 +12,4 @@
   - XiaoMi MiWiFi mini
 
 - **x86-64**
-  - Intel 3215U/3210U
+  - Intel 3215U/3205U

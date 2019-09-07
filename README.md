@@ -1,4 +1,4 @@
-# OpenWRT Configs
+# OpenWrt Configs
 
 ### Support devices
 

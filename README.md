@@ -1,17 +1,21 @@
 # OpenWrt Configs
 
-### Support devices
+### Supported devices
 
-- **ar71xx-generic**
-  - GL-INET 6416A
+#### ar71xx-generic
 
-- **ar71xx-tiny**
-  - TP-LINK WR741N V4
-  - TP-LINK WR841N V8
-  - TP-LINK WR941N V7
+- GL-INET 6416A (16M Flash / 64M RAM)
 
-- **ramips-mt7620**
-  - XiaoMi MiWiFi mini
+#### ar71xx-tiny
 
-- **x86-64**
-  - Intel 3215U/3205U
+- TP-LINK WR741N V4 (8M Flash / 64M RAM)
+- TP-LINK WR841N V8 (16M Flash / 64M RAM)
+- TP-LINK WR941N V7 (16M Flash / 64M RAM)
+
+#### ramips-mt7620
+
+- XiaoMi MiWiFi mini (16M Flash / 128M RAM)
+
+#### x86-64
+
+- Intel 3215U/3205U

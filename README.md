@@ -2,7 +2,7 @@
 
 ### Supported devices
 
-#### ar71xx-generic
+#### ath79-generic
 
 - GL-INET 6416A (16M Flash / 64M RAM)
 

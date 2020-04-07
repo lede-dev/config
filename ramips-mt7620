@@ -253,7 +253,6 @@ CONFIG_KERNEL_BUILD_DOMAIN=""
 CONFIG_KERNEL_PRINTK=y
 # CONFIG_KERNEL_CRASHLOG is not set
 # CONFIG_KERNEL_SWAP is not set
-CONFIG_KERNEL_VERMAGIC=""
 # CONFIG_KERNEL_DEBUG_FS is not set
 # CONFIG_KERNEL_MIPS_FPU_EMULATOR is not set
 # CONFIG_KERNEL_PERF_EVENTS is not set
@@ -2852,6 +2851,8 @@ CONFIG_PACKAGE_lua=y
 # CONFIG_PACKAGE_python3-idna-src is not set
 # CONFIG_PACKAGE_python3-ifaddr is not set
 # CONFIG_PACKAGE_python3-ifaddr-src is not set
+# CONFIG_PACKAGE_python3-importlib-metadata is not set
+# CONFIG_PACKAGE_python3-importlib-metadata-src is not set
 # CONFIG_PACKAGE_python3-incremental is not set
 # CONFIG_PACKAGE_python3-incremental-src is not set
 # CONFIG_PACKAGE_python3-influxdb is not set
@@ -4690,6 +4691,7 @@ CONFIG_PACKAGE_wget=y
 # Filesystem
 #
 # CONFIG_PACKAGE_davfs2 is not set
+# CONFIG_PACKAGE_ksmbd-avahi-service is not set
 # CONFIG_PACKAGE_ksmbd-server is not set
 # CONFIG_PACKAGE_ksmbd-utils is not set
 # CONFIG_PACKAGE_netatalk is not set
@@ -5200,8 +5202,7 @@ CONFIG_PACKAGE_cgi-io=y
 CONFIG_PACKAGE_uhttpd=y
 # CONFIG_PACKAGE_uhttpd-mod-lua is not set
 CONFIG_PACKAGE_uhttpd-mod-ubus=y
-# CONFIG_PACKAGE_uwsgi-cgi is not set
-# CONFIG_PACKAGE_uwsgi-cgi-luci-support is not set
+# CONFIG_PACKAGE_uwsgi is not set
 
 #
 # Wireless
@@ -5573,7 +5574,6 @@ CONFIG_PACKAGE_wpad-basic=y
 # CONFIG_PACKAGE_unrar is not set
 # CONFIG_PACKAGE_unzip is not set
 # CONFIG_PACKAGE_xz-utils is not set
-# CONFIG_PACKAGE_zip is not set
 # CONFIG_PACKAGE_zstd is not set
 
 #
@@ -5945,6 +5945,7 @@ CONFIG_PACKAGE_libjson-script=y
 # CONFIG_PACKAGE_spi-tools is not set
 # CONFIG_PACKAGE_spidev-test is not set
 # CONFIG_PACKAGE_ssdeep is not set
+# CONFIG_PACKAGE_sshpass is not set
 # CONFIG_PACKAGE_strace is not set
 CONFIG_STRACE_NONE=y
 # CONFIG_STRACE_LIBDW is not set

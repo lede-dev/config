@@ -226,13 +226,13 @@ CONFIG_TARGET_UBIFS_JOURNAL_SIZE=""
 #
 # Global build settings
 #
-# CONFIG_JSON_OVERVIEW_IMAGE_INFO is not set
+CONFIG_JSON_OVERVIEW_IMAGE_INFO=y
 # CONFIG_ALL_NONSHARED is not set
 CONFIG_ALL_KMODS=y
 # CONFIG_ALL is not set
-# CONFIG_BUILDBOT is not set
-# CONFIG_SIGNED_PACKAGES is not set
-# CONFIG_SIGNATURE_CHECK is not set
+CONFIG_BUILDBOT=y
+CONFIG_SIGNED_PACKAGES=y
+CONFIG_SIGNATURE_CHECK=y
 
 #
 # General build options
@@ -249,8 +249,8 @@ CONFIG_SHADOW_PASSWORDS=y
 #
 # Kernel build options
 #
-CONFIG_KERNEL_BUILD_USER="buildhost"
-CONFIG_KERNEL_BUILD_DOMAIN="builder"
+CONFIG_KERNEL_BUILD_USER="builder"
+CONFIG_KERNEL_BUILD_DOMAIN="buildhost"
 CONFIG_KERNEL_PRINTK=y
 CONFIG_KERNEL_CRASHLOG=y
 CONFIG_KERNEL_SWAP=y
@@ -415,10 +415,10 @@ CONFIG_TARGET_INIT_ENV=""
 CONFIG_TARGET_INIT_CMD="/sbin/init"
 CONFIG_TARGET_INIT_SUPPRESS_STDERR=y
 CONFIG_VERSIONOPT=y
-CONFIG_VERSION_DIST=""
+CONFIG_VERSION_DIST="OpenWrt"
 CONFIG_VERSION_NUMBER=""
 CONFIG_VERSION_CODE=""
-CONFIG_VERSION_REPO=""
+CONFIG_VERSION_REPO="http://downloads.openwrt.org/releases/19.07.7"
 CONFIG_VERSION_HOME_URL=""
 CONFIG_VERSION_MANUFACTURER=""
 CONFIG_VERSION_MANUFACTURER_URL=""
@@ -1512,12 +1512,12 @@ CONFIG_PACKAGE_libgcc=y
 CONFIG_PACKAGE_libpthread=y
 CONFIG_PACKAGE_librt=y
 # CONFIG_PACKAGE_libstdcpp is not set
-# CONFIG_PACKAGE_logd is not set
+CONFIG_PACKAGE_logd=y
 CONFIG_PACKAGE_mtd=y
 CONFIG_PACKAGE_netifd=y
 # CONFIG_PACKAGE_nft-qos is not set
 # CONFIG_PACKAGE_om-watchdog is not set
-# CONFIG_PACKAGE_openwrt-keyring is not set
+CONFIG_PACKAGE_openwrt-keyring=y
 CONFIG_PACKAGE_opkg=y
 CONFIG_PACKAGE_procd=y
 
@@ -1544,7 +1544,7 @@ CONFIG_PACKAGE_ubusd=y
 CONFIG_PACKAGE_uci=y
 CONFIG_PACKAGE_urandom-seed=y
 CONFIG_PACKAGE_urngd=y
-# CONFIG_PACKAGE_usign is not set
+CONFIG_PACKAGE_usign=y
 # CONFIG_PACKAGE_wireless-tools is not set
 # CONFIG_PACKAGE_zram-swap is not set
 
@@ -5537,7 +5537,7 @@ CONFIG_PACKAGE_cgi-io=y
 # CONFIG_PACKAGE_tinyproxy is not set
 CONFIG_PACKAGE_uhttpd=y
 # CONFIG_PACKAGE_uhttpd-mod-lua is not set
-CONFIG_PACKAGE_uhttpd-mod-ubus=y
+# CONFIG_PACKAGE_uhttpd-mod-ubus is not set
 # CONFIG_PACKAGE_uwsgi is not set
 
 #
@@ -5820,7 +5820,7 @@ CONFIG_PACKAGE_uclient-fetch=y
 # CONFIG_PACKAGE_wpa-cli is not set
 # CONFIG_PACKAGE_wpa-supplicant is not set
 # CONFIG_WPA_RFKILL_SUPPORT is not set
-CONFIG_WPA_MSG_MIN_PRIORITY=4
+CONFIG_WPA_MSG_MIN_PRIORITY=3
 # CONFIG_WPA_WOLFSSL is not set
 CONFIG_DRIVER_WEXT_SUPPORT=y
 CONFIG_DRIVER_11N_SUPPORT=y
@@ -5899,7 +5899,7 @@ CONFIG_PACKAGE_wpad-basic=y
 # Boot Loaders
 #
 # CONFIG_PACKAGE_fconfig is not set
-# CONFIG_PACKAGE_uboot-envtools is not set
+CONFIG_PACKAGE_uboot-envtools=y
 
 #
 # Compression
